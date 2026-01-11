@@ -1,25 +1,36 @@
-# Onyx-Trainer
+# Onyx Trainer Base
 
-![Onyx-Trainer Logo](path/to/logo.png) <!-- Optional: Replace with your logo -->
+Onyx Trainer Base is an **expanded GTA5-ASI-MenuBase** project featuring an **ImGui overlay** for in-game enhancements and a modular system for adding new features.
 
-## Overview
-**Onyx-Trainer** is a [brief description of your project — e.g., "C++ application for training AI models" or "Game trainer for Windows applications"].  
-It provides [key functionality/features of your project in 1–2 lines].
+> ⚠️ **Disclaimer:** Use responsibly. Trainer tools modify game behavior. Only use in single-player/private environments to avoid violating game terms of service.
+
+---
 
 ## Features
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Cross-platform support: Windows x86/x64
+
+- Overlay Menu with ImGui  
+- God Mode for the player  
+- Invisible Player (Local)  
+- Toggleable Watermark  
+- Safe DLL unloading  
+- Modular system for adding new features via `features/` folder
+
+---
+
+## Project Structure
+/features/ -> Custom feature modules (player, vehicles, etc.)
+/ext/ -> External dependencies
+/ext/ImGui/ -> GUI library used for overlay
+/ext/MinHook/ -> Hooking library for DirectX and functions
+/ext/ScriptHookV/ -> GTA5 ScriptHook SDK
+/theme/ -> Menu themes (colors, styles)
+/src/ -> Core overlay implementation
+
+---
 
 ## Installation
 
-### Prerequisites
-- Microsoft Visual Studio 2022 or later
-- C++ development tools installed
-- [Any other dependencies]
-
-### Steps
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/Onyx-Trainer.git
+1. Download Source Code
+2. Run the .sln file
+3. Build in Debug x64 (didnt test Release but should work)
+4. Enjoy!
