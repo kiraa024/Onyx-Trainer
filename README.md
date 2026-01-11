@@ -1,37 +1,52 @@
 # Onyx Trainer Base
 
-Onyx Trainer Base is an **expanded GTA5-ASI-MenuBase** project featuring an **ImGui overlay** for in-game enhancements and a modular system for adding new features.
-
-> ⚠️ **Disclaimer:** Use responsibly. Trainer tools modify game behavior. Only use in single-player/private environments to avoid violating game terms of service.
+A GTA5 trainer overlay built with ImGui and ScriptHookV.  
+This project serves as a base for custom feature modules, using DirectX hooks for rendering and input.
 
 ---
 
 ## Features
 
-- Overlay Menu with ImGui  
-- God Mode for the player  
-- Invisible Player (Local)  
-- Toggleable Watermark  
-- Safe DLL unloading  
-- Modular system for adding new features via `features/` folder
+- God Mode (local player)
+- Invisible Player (local)
+- Toggleable overlay menu
+- Watermark display
+- DLL unload functionality
+- Input blocking when menu is open
 
 ---
 
 ## Project Structure
 
-- /features/ -> Custom feature modules (player, vehicles, etc.)
-- /ext/ -> External dependencies
-- /ext/ImGui/ -> GUI library used for overlay
-- /ext/MinHook/ -> Hooking library for DirectX and functions
-- /ext/ScriptHookV/ -> GTA5 ScriptHook SDK
-- /theme/ -> Menu themes (colors, styles)
-- /src/ -> Core overlay implementation
+- /features/ -> Custom feature modules (player, vehicles, etc.)  
+- /ext/ -> External dependencies  
+- /ext/ImGui/ -> GUI library used for overlay  
+- /ext/MinHook/ -> Hooking library for DirectX and functions  
+- /ext/ScriptHookV/ -> GTA5 ScriptHook SDK  
+- /theme/ -> Menu themes (colors, styles)  
+- /src/ -> Core overlay implementation  
 
 ---
 
-## Installation
+## How to Use
 
-1. Download Source Code
-2. Run the .sln file
-3. Build in Debug x64 (didnt test Release but should work)
-4. Enjoy!
+1. Build the project as a DLL.
+2. Inject into GTA5 using ScriptHookV.
+3. Toggle the menu with `F4`.
+4. Features like God Mode and Invisible Player work continuously, even when the menu is closed.
+5. Unload the trainer safely via the "Unload DLL" button in the menu.
+
+---
+
+## Credits
+
+- **ImGui** – [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui)  
+- **MinHook** – [https://github.com/TsudaKageyu/minhook](https://github.com/TsudaKageyu/minhook)  
+- **ScriptHookV** – Alexander Blade (ScriptHookV SDK)  
+- **Original Onyx Trainer Base Concept** – kiraa024  
+
+---
+
+## License
+
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute the code as long as the original copyright and license notice are included.
