@@ -18,13 +18,14 @@ Onyx Trainer Base is an **expanded GTA5-ASI-MenuBase** project featuring an **Im
 ---
 
 ## Project Structure
-/features/ -> Custom feature modules (player, vehicles, etc.)
-/ext/ -> External dependencies
-/ext/ImGui/ -> GUI library used for overlay
-/ext/MinHook/ -> Hooking library for DirectX and functions
-/ext/ScriptHookV/ -> GTA5 ScriptHook SDK
-/theme/ -> Menu themes (colors, styles)
-/src/ -> Core overlay implementation
+
+- /features/ -> Custom feature modules (player, vehicles, etc.)
+- /ext/ -> External dependencies
+- /ext/ImGui/ -> GUI library used for overlay
+- /ext/MinHook/ -> Hooking library for DirectX and functions
+- /ext/ScriptHookV/ -> GTA5 ScriptHook SDK
+- /theme/ -> Menu themes (colors, styles)
+- /src/ -> Core overlay implementation
 
 ---
 
