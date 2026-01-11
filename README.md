@@ -1,7 +1,8 @@
-# Onyx Trainer Base (https://www.gta5-mods.com/scripts/onyx-trainer)
+# Onyx Trainer Base 
 
 A GTA5 trainer overlay built with ImGui and ScriptHookV.  
 This project serves as a base for custom feature modules, using DirectX hooks for rendering and input.
+(https://www.gta5-mods.com/scripts/onyx-trainer)
 
 ---
 
