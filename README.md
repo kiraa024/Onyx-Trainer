@@ -47,6 +47,12 @@ This project serves as a base for custom feature modules, using DirectX hooks fo
 
 ---
 
+## Showcase
+
+<img width="1913" height="1077" alt="grafik" src="https://github.com/user-attachments/assets/4af8207e-81ac-484f-893f-451c7e9a96df" />
+
+---
+
 ## License
 
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute the code as long as the original copyright and license notice are included.
