@@ -1,5 +1,6 @@
 # Onyx Trainer Base 
 
+(Trainer will be reworked to work with .dll and .asi / code will be recoded to be simpler and easier to use.)
 A GTA5 trainer overlay built with ImGui and ScriptHookV.  
 This project serves as a base for custom feature modules, using DirectX hooks for rendering and input.
 
